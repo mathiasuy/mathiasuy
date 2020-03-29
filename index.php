@@ -36,9 +36,7 @@
 		echo "<h1>api-petshopp (java)</h1>";
 
 		$json=file_get_contents("http://jtom.mooo.com:8002/pet/get/1");
-		$data =  json_decode($json);
-
-		print_r($data);
+		print_r($json);
 
 		
 	 ?>
