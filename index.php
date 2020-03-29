@@ -22,7 +22,7 @@
 			<li><a href="http://so.mb.uy">Material de Sistemas operativos (FING)</a></li>
 			<li><a href="http://tl.mb.uy">Material de Teoría de Lenguajes (FING)</a></li>
 		 	<li><a href="http://tv.mb.uy">TV en vivo</a></li>
-		 	<li><a href="http://mtvuy.000webhost.com">Back de TV en vivo</a></li>
+		 	<li><a href="http://mtvuy.000webhostapp.com">Back de TV en vivo</a></li>
 		 	<li><a href="http://segundointento.azurewebsites.net">YinYin</a></li>
 		 	<li><a href="http://portaln.azurewebsites.net">PortalN</a></li>
 		 	<li><a href="http://catedras.azurewebsites.net">Catedras (MVC 5)</a></li>
