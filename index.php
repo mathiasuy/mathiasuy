@@ -22,6 +22,19 @@
 			<li><a href="http://so.mb.uy">Material de Sistemas operativos (FING)</a></li>
 			<li><a href="http://tl.mb.uy">Material de Teoría de Lenguajes (FING)</a></li>
 		 	<li><a href="http://tv.mb.uy">TV en vivo</a></li>
+		 	<li><a href="http://mtvuy.000webhost.com">Back de TV en vivo</a></li>
+		 	<li><a href="http://segundointento.azurewebsites.net">YinYin</a></li>
+		 	<li><a href="http://portaln.azurewebsites.net">PortalN</a></li>
+		 	<li><a href="http://catedras.azurewebsites.net">Catedras (MVC 5)</a></li>
+		 	<li><a href="http://mathiasb.azurewebsites.net">mathiasb</a></li>
+		 	<li><a href="http://ushop.azurewebsites.net">ushop</a></li>
+		 	<li><a href="http://github.com/mathiasuy">Github/mathiasuy</a></li>
+		 	<li><a href="http://gitlab.fing.edu.uy/mathias">Gitlab/mathiasuy</a></li>
+		 	<li><a href="https://profile.codersrank.io/user/mathiasuy">CodersRank/mathiasuy</a></li>
+		 	<li><a href="https://jtom.mooo.com:8003">Grabador de radios</a></li>
+		 	<li><a href="https://jtom.mooo.com:8004">Agenda</a></li>
+		 	<li><a href="https://jtom.mooo.com:8005">Calendario</a></li>
+		 	<li><a href="https://jtom.mooo.com">Otro front</a></li>
 		</ul>
 	</nav>
 
