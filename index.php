@@ -30,13 +30,23 @@
 		$json=file_get_contents("http://jtom.mooo.com:8001/ejemplo/vehiculos");
 		$data =  json_decode($json);
 
+		echo "<br>";
+		print_r($json);
+		echo "<br>";
 		print_r($data);
+		echo "<br>";
 
 
 		echo "<h1>api-petshopp (java)</h1>";
+		
+		echo "<br>";
 
 		$json=file_get_contents("http://jtom.mooo.com:8002/pet/get/1");
-		print_r($json);
+		echo "<br>";
+
+		$data =  json_decode($json);
+
+		print_r($data);
 
 		
 	 ?>
