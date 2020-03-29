@@ -15,7 +15,7 @@
 </head>
 <body>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="http://jtom.mooo.com:8001/ejemplo/vehiculos"></script>
+	<script async src="http://www.googletagmanager.com/gtag/js?id=UA-112110069-4"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -27,7 +27,7 @@
 	<?php 
 		echo "<h1>Automotora pruebas</h1>";
 
-		$json=file_get_contents("http://west.basketball.nl/db/json/stand.pl?szn_Naam=2014-2015&cmp_ID=373");
+		$json=file_get_contents("http://jtom.mooo.com:8001/ejemplo/vehiculos");
 		$data =  json_decode($json);
 
 		print_r($data);
