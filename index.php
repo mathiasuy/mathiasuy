@@ -15,7 +15,7 @@
 </head>
 <body>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112110069-4"></script>
+	<script async src="http://jtom.mooo.com:8001/ejemplo/vehiculos"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
