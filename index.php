@@ -25,12 +25,21 @@
 	</script>
 
 	<?php 
-		echo "<h1>Automotora pruebas</h1>";
+		echo "<h1>api-automotoras (java)</h1>";
 
 		$json=file_get_contents("http://jtom.mooo.com:8001/ejemplo/vehiculos");
 		$data =  json_decode($json);
 
 		print_r($data);
+
+
+		echo "<h1>api-petshopp (java)</h1>";
+
+		$json=file_get_contents("http://jtom.mooo.com:8002/pet/1");
+		$data =  json_decode($json);
+
+		print_r($data);
+
 		
 	 ?>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
