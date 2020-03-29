@@ -4,7 +4,7 @@
 	<html lang="es">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Material para Teoría de lenguajes - FING</title>
+	<title> Mathias Battistella</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<style type="text/css">
 		.btn{
@@ -25,27 +25,11 @@
 	</script>
 
 	<?php 
-		$fowdir= "/";
-		$directorio = opendir("."); //ruta actual
-		$dir = getcwd().$fowdir;
-		$url =  "{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-		// Abre un directorio conocido, y procede a leer el contenido
-		echo '<div class="btn-group-vertical">';
-		echo '<a  type="button" class="btn btn-info " href="'.$fowdir."..".'">Arriba</a></br></br>';
-	    $dh = opendir($dir);
-	    while (($file = readdir($dh)) !== false) {
-	    	$ruta = $dir.$file;
-	    	if (!($file == 'index.php') && !($file == '..') && !($file == '.')) {						
-	    		if (is_dir($ruta)){
-				    echo '<a  type="button" class="btn btn-primary " href="/files/'.$fowdir.$file.'">'.$file ."</a></br></br>";
-				}else{
-					echo '<a  type="button" class="btn btn-info " href="/files/'.$fowdir.$file.'">'.$file ."</a></br></br>";
-				}
-	    	}
-	        //echo "nombre archivo: $file : tipo archivo: " . filetype($dir . $file) . "\n";
-	    }
-	    closedir($dh);
-		echo '</div>';
+		echo "<h1>Automotora pruebas</h1>";
+
+
+
+
 	 ?>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
