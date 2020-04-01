@@ -27,6 +27,7 @@
 		 	<li><a href="http://segundointento.azurewebsites.net">YinYin</a></li>
 		 	<li><a href="http://portaln.azurewebsites.net">PortalN</a></li>
 		 	<li><a href="http://catedras.azurewebsites.net">Catedras (MVC 5)</a></li>
+		 	<li><a href="http://files.mb.uy/api-automotora/postman.7z">Colecciones Postman para probar las apis (cambiar variable de entorno del puerto por 8001)</a></li>
 		 	<li><a href="http://mathiasb.azurewebsites.net">mathiasb</a></li>
 		 	<li><a href="http://ushop.azurewebsites.net">ushop</a></li>
 		 	<li><a href="http://github.com/mathiasuy">Github/mathiasuy</a></li>
